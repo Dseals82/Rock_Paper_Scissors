@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <h1 class="text-center">Rock Paper Scissors</h1>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="player_score" class="score">0</h1>
+            <h3>Player Score</h3>
+          </div>
+          <div class="col-md-6 text-right">
+            <h1 id="computer_score" class="score">0</h1>
+            <h3>Computer Score</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary btn btn-lg"><i class="far fa-hand-rock"></i> Rock</button>
+        </div>
+        <div class="col-md-4">
+          <button type="button" class="btn btn-primary btn btn-lg"><i class="far fa-hand-paper"></i> Paper</button>
+        </div>
+        <div id="scissors" class="col-md-4">
+            <button type="button" class="btn btn-primary btn btn-lg"><i class="far fa-hand-scissors"></i> Scissors</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>player one history</th>
+            <th>player two history</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
